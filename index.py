@@ -67,12 +67,6 @@ try:
           <p>作品剪辑4
           </p>
         </div>
-
-        <div class="landing-page-card">
-          <a href="pics/great_picture123.jpg">great_picture</a> 
-          <p>作品剪辑4afewfawefawef
-          </p>
-        </div>
         
         <div class="landing-page-card">
           <a href="pics/newpic.jpg">newpic</a> 
