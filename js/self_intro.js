@@ -54,6 +54,7 @@ templateBannerImage.src = landingPageImage
 landingPageCardLinks.forEach((a,j)=>{
 
   img_default = document.createElement("img");
+  img_default.src=a.href;
 
    div = document.createElement("div");
    //Object.assign(a.style,landingPageCardContents[j].style)
@@ -68,32 +69,6 @@ landingPageCardLinks.forEach((a,j)=>{
    p.append(...landingPageCardContents[j].innerText);
    a2 = document.createElement("a");
   
-
-   img_default.src="pics/pic_default.jpg";
-   
-   //复制这里开始，替换picture1成新的照片的标题
-   //替换"pics/picture1.jpg"成新照片的位置比如"pics/new_pic.jpg"
-   if (h3.innerText == 'pic1'){
-    img_default.src="pics/pic1.jpg";
-   }
-   //复制这里结束
-    
-   if (h3.innerText == 'pic2'){
-    img_default.src="pics/pic2.jpg";
-   }
-
-   if (h3.innerText == 'pic3'){
-    img_default.src="pics/pic3.jpg";
-   }
-
-   if (h3.innerText == 'pic4'){
-    img_default.src="pics/pic4.jpg";
-   }
-
-   if (h3.innerText == '新的画'){
-    img_default.src="pics/新的画.jpg";
-   }
- 
    //footer
    a2.className = "card-link"
    //a2.innerText = "Go to dashboard";
